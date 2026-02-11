@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Rhythm Place | Сообщество ритм-игр</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            background-color: #0d0d12;
+            color: #cfcfd8;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            padding: 100px 0 60px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #fff;
+            letter-spacing: -1px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #7e7e8d;
+            font-size: 1.1rem;
+        }
+
+        /* Обновленная кнопка */
+        .btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            background-color: #6d28d9;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+        .btn:hover {
+            background-color: #7c3aed;
+            transform: translateY(-2px); /* Легкий эффект приподнимания */
+        }
+
+        section { padding: 60px 0; border-top: 1px solid #1f1f27; }
+
+        h2 { color: #fff; margin-bottom: 20px; font-size: 1.5rem; }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .feature h3 { color: #9d4edd; margin-bottom: 10px; }
+        .feature p { font-size: 0.95rem; color: #888891; }
+
+        .games-list {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .games-list li {
+            background: #16161e;
+            padding: 8px 16px;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            border: 1px solid #252531;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            font-size: 0.8rem;
+            color: #44444d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>The Rhythm Place</h1>
+            <p class="subtitle">Главное русскоязычное пространство для любителей ритм-игр.</p>
+            <a href="https://discord.gg/uBNTtM8fh3" target="_blank" class="btn">Присоединиться к Discord</a>
+        </header>
+
+        <section>
+            <h2>О нашем проекте</h2>
+            <p>Мы объединяем игроков всех уровней — от новичков в Geometry Dash до топ-плееров в osu! и ADOFAI. Наша цель — создать комфортное место для общения и совместной игры.</p>
+        </section>
+
+        <section>
+            <div class="grid">
+                <div class="feature">
+                    <h3>Атмосфера</h3>
+                    <p>Никакого токсика. Мы здесь ради музыки и кликов. Поддержим и поможем разобраться в механиках.</p>
+                </div>
+                <div class="feature">
+                    <h3>Ивенты</h3>
+                    <p>Проводим регулярные совместные прохождения, турниры и стримы.</p>
+                </div>
+                <div class="feature">
+                    <h3>Рост</h3>
+                    <p>Делимся картами, сетами и советами по настройке девайсов.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Во что мы играем</h2>
+            <ul class="games-list">
+                <li>Geometry Dash</li>
+                <li>osu!</li>
+                <li>A Dance of Fire and Ice</li>
+                <li>Muse Dash</li>
+                <li>Friday Night Funkin'</li>
+                <li>Quaver</li>
+            </ul>
+        </section>
+
+        <footer>
+            &copy; 2025 The Rhythm Place. Community First.
+        </footer>
+    </div>
+
+</body>
+</html>
